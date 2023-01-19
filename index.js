@@ -10,7 +10,7 @@ app.get('/teste', (req, res) => {
     res.status(200).send({
         produto: "camiseta",
         tamanho: "grande",
-        "title": "iPhone 9",
+        "title": "Samsung",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
       "discountPercentage": 12.96,
@@ -19,6 +19,12 @@ app.get('/teste', (req, res) => {
       "brand": "Apple",
       "category": "smartphones"
     })
+})
+
+
+app.get('/brands', (req, res) => {
+    res.status(200).send({
+        produto: ["tesla", "ford",'banana', 'apple', 'peach', 'mango' ])
 })
 
 //askjdnasjdhbhjasbdjhasbdlorem lorem   
