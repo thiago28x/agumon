@@ -24,7 +24,7 @@ app.get('/teste', (req, res) => {
 
 app.get('/brands', (req, res) => {
     res.status(200).send({
-        produto: ["tesla", "ford",'banana', 'apple', 'peach', 'mango' ])
+        produto: ["tesla", "ford",'banana', 'apple', 'peach', 'mango' ]})
 })
 
 //askjdnasjdhbhjasbdjhasbdlorem lorem   
